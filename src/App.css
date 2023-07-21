@@ -8,4 +8,5 @@
 
 .App .container-weather-app {
   border: 1px solid rgb(22, 34, 107);
+  border-radius: 10px;
 }
