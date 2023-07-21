@@ -22,3 +22,27 @@
 .WeatherSearch .get-current-info .current {
   margin: 5px;
 }
+
+.WeatherSearch .weather-stats {
+  margin: 20px 45px;
+  text-align: left;
+}
+
+.WeatherSearch .weather-stats p {
+  margin: 0px;
+}
+
+.WeatherSearch .weather-stats .left-side-weather-stats {
+  display: flex;
+  margin-top: 15px;
+}
+
+.WeatherSearch .weather-stats .right-side-weather-stats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.WeatherSearch .weather-stats .right-side-weather-stats p {
+  margin: 0px;
+}
