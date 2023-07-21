@@ -1,0 +1,19 @@
+.Header ul {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+
+.Header li {
+  margin: 10px;
+}
+
+.Header li a {
+  text-decoration: none;
+  color: rgb(48, 145, 236);
+}
+
+.Header li a:hover {
+  text-decoration: none;
+  color: rgb(118, 170, 219);
+}
