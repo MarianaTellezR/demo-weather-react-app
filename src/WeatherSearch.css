@@ -28,8 +28,17 @@
   text-align: left;
 }
 
+.WeatherSearch .weather-stats h1 {
+  color: #1f1e1e;
+  font-size: 50px;
+}
+.WeatherSearch .weather-stats h2 {
+  color: #464545;
+}
+
 .WeatherSearch .weather-stats p {
   margin: 0px;
+  color: #878787;
 }
 
 .WeatherSearch .weather-stats .left-side-weather-stats {
