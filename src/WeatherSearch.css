@@ -31,6 +31,8 @@
 .WeatherSearch .weather-stats h1 {
   color: #1f1e1e;
   font-size: 50px;
+
+  margin-left: 20px;
 }
 .WeatherSearch .weather-stats h2 {
   color: #464545;

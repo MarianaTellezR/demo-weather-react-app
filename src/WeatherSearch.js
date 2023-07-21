@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./WeatherSearch.css";
 
 import axios from "axios";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
@@ -55,6 +56,12 @@ export default function WeatherSearch() {
           <p>{weather.description}</p>
           <div className="row">
             <div className="col-sm-6 left-side-weather-stats">
+              <ReactAnimatedWeather
+                icon="CLEAR_DAY"
+                color="black"
+                size={48}
+                animate={true}
+              />
               <h1>{Math.round(weather.temperature)}</h1>
               <p>
                 <small>°C</small>
@@ -92,6 +99,12 @@ export default function WeatherSearch() {
           <p>Clouds</p>
           <div className="row">
             <div className="col-sm-6 left-side-weather-stats">
+              <ReactAnimatedWeather
+                icon="CLEAR_DAY"
+                color="black"
+                size={64}
+                animate={true}
+              />
               <h1>22</h1>
               <p>
                 <small>°C</small>
